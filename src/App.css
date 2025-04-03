@@ -15,6 +15,20 @@
   font-size: 25px;
 }
 
+.Links:hover{
+  scale: 1.5;
+}
+
+/* voltar aqui e arrumar as cores dos links */
+
+a:visited{
+  color: black;
+}
+
+a:active{
+  color: aqua;
+}
+
 .container-app{
   /* background-color: aqua; */
   min-height: 100vh;
@@ -22,8 +36,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
-background: hsla(292, 83%, 47%, 1);
+background: hsla(260, 75%, 95%, 1);
 background: radial-gradient(circle, hsla(292, 83%, 47%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
 background: -moz-radial-gradient(circle, hsla(292, 83%, 47%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
 background: -webkit-radial-gradient(circle, hsla(292, 83%, 47%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
